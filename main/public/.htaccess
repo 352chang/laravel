@@ -17,4 +17,7 @@
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    RewriteCond %{HTTP_HOST} ^(kochang\.site)(:80)? [NC]
+    RewriteRule ^(.*)$ http://www.kochang.site/$1 [R=301,L]
 </IfModule>
