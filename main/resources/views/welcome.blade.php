@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <style>
@@ -81,6 +82,7 @@
                 <div class="title m-b-md">
                     Laravel
                 </div>
+                <p class="bg-danger">laravelの勉強中！！</p>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
